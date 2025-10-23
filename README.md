@@ -5,7 +5,7 @@ You should run `git clone` to download this repo.
 Then, you can:
 
 ```bash
-cd mini_project
+cd daily_joke
 pip install -e .
-python src/main.py
+daily-joke
 ```
