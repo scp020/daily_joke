@@ -1,4 +1,4 @@
-from utils import fetch_joke
+from .utils import fetch_joke
 
 
 def run():

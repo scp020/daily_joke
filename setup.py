@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='dailyjoke',
+    name='src',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
@@ -9,13 +9,13 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'daily-joke=dailyjoke.main:run',
+            'daily-joke=src.main:run',
         ],
     },
-    author='your_name',
-    author_email='your_email',
+    author='Haiyan Yang',
+    author_email='her email',
     description='一个每日一笑的Python小程序',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/your_user_name/daily-joke',
+    url='https://github.com/scp020/daily_joke',
 )
